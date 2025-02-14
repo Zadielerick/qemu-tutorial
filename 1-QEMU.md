@@ -39,3 +39,8 @@ cd; mkdir -p machine/fedora-vm-qemu; cd machine/fedora-vm-qemu; ~/src/emulation/
 ~/src/emulation/qemu/bin/debug/x86_64-softmmu/qemu-system-x86_64 -m 1024 -enable-kvm -drive if=virtio,file=test.qcow2,cache=none -cdrom ~/Downloads/fs/Fedora-Workstation-Live-x86_64-41-1.4.iso
 ```
 Fedora should launch and you can play around with the installation. So far we have verified QEMU to be working and able to launch a VM.
+
+
+# Conclusion
+We should now have qemu up and ready to use for our emulation.
+
